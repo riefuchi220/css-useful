@@ -1,0 +1,34 @@
+.button-contents {
+  padding: 16px;
+  text-align: center;
+}
+
+.button-type-text {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 16px 20px;
+  cursor: pointer;
+  background-color: rgb(102, 43, 240);
+  border: solid 1px rgb(129, 93, 212);
+  color: #fff;
+  border-radius: 8px;
+  font-size: 18px;
+  /* box-shadow:水平方向の距離　垂直方向の距離　ぼかし具合 広がり具合（距離）　色指定（任意）; */
+  box-shadow: 2px 4px 6px 0px rgba(112, 112, 112, 0.5);
+}
+
+button:first-child {
+  margin-bottom: 16px;
+}
+
+@media (any-hover:hover) {
+  button:hover {
+    opacity: .8;
+    box-shadow: none;
+  }
+}

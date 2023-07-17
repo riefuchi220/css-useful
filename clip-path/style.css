@@ -1,0 +1,20 @@
+.hero {
+  height: 400px;
+  display: grid;
+  place-items: center;
+  background-color: rgb(85, 198, 239);
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 10vw),
+    0 100%
+  );
+}
+
+h1 {
+  font-size: 3.4rem;
+}
+
+.contents {
+  padding: 24px;
+}

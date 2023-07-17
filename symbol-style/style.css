@@ -1,0 +1,44 @@
+main {
+    padding: 24px;
+}
+
+/* sample-all　全ての要素指定 */
+.sample-all * {
+    color: rgb(251, 127, 255);
+}
+
+.sample, .sample-pre, .sample-back, .sample-part, .sample-all {
+    margin: 16px;
+    padding: 16px;
+    border: solid 1px #333;
+}
+
+/* 直下要素指定 */
+.contents > p {
+    color: #ebc5c5;
+}
+
+/* 隣接した要素指定 */
+.contents + p {
+    color: green;
+} 
+
+/* 兄弟要素指定 */
+.brother ~ p {
+    color: blueviolet;
+}
+
+/* 前方一致指定 */
+.sample-pre [class^="abc"] {
+    color: blue;
+}
+
+/* 後方一致指定 */
+.sample-back [class$="abc"] {
+    color: orange;
+}
+
+/* 部分一致指定 */
+.sample-part [class*="abc"] {
+    color: red;
+}

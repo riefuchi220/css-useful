@@ -1,0 +1,24 @@
+h1 {
+  padding: 20px;
+  text-align: center;
+}
+
+.content {
+  padding: 16px;
+  color: #333;
+}
+
+/* first-letter 最初の一文字にスタイルを当てるとき */
+.content p::first-letter {
+  color: rgb(251, 95, 95);
+  font-size: 2.6em;
+  font-weight: 600;
+  line-height: 1;
+  float: left;
+}
+
+/* first-line 一行目にステイルを当てるとき */
+.content p::first-line {
+  font-weight: 600;
+}
+

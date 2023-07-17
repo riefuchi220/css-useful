@@ -1,0 +1,28 @@
+main {
+  padding-top: 30px;
+}
+
+h2 {
+  margin-bottom: 16px;
+}
+
+.container {
+  width: min(100% - 2rem, 640px);
+  margin-inline: auto;
+  /* width: 100%;
+  max-width: 640px;
+  padding: 0 1rem;
+  margin: 0 auto; */
+}
+
+.bule__warp {
+  border: solid 6px turquoise;
+  padding: 1.5rem;
+}
+
+.sub-text {
+  text-decoration: underline solid turquoise 3px;
+  text-underline-offset: .4em;
+  padding-bottom: 16px;
+  font-weight: 600;
+}
